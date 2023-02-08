@@ -17,59 +17,66 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             ZStack{
-                Color.blue.opacity(0.3)
+                Color.white.opacity(1)
                     .ignoresSafeArea()
+                    .saturation(7)
                 Ellipse()
                     .scale(0.25)
-                    .foregroundColor(.pink.opacity(0.5))
+                    .foregroundColor(.pink.opacity(0.9))
                     .offset(y:-250)
                     .offset(x: -75)
                 Ellipse()
                     .scale(0.25)
-                    .foregroundColor(.blue.opacity(0.50))
+                    .foregroundColor(.blue.opacity(0.8))
                     .offset(y:-205)
                     .offset(x: -28)
                 Ellipse()
                     .scale(0.25)
-                    .foregroundColor(.yellow.opacity(0.50))
+                    .foregroundColor(.yellow.opacity(0.9))
                     .offset(y:-160)
                     .offset(x: -95)
                     .rotationEffect(Angle(degrees: -4), anchor: .bottomLeading)
                 Image("string")
                     .offset(x:-54)
                     .offset(y:5)
+                    .opacity(0.80)
                     
                 
                 VStack{
+                    Image("miles")
+                        .offset(y:355)
+                        .offset(x:7)
+                        .opacity(0.3)
                     TextField("Username", text: $username)
                         .padding()
                         .frame(width:300, height: 50)
-                        .background(Color.gray.opacity(0.25))
+                        .background(Color(hue: 1.0, saturation: 0.0, brightness: 0.962))
                         .cornerRadius(10)
                         .border(.red, width: CGFloat(wrongUsername))
-                        .offset(y:150)
+                        //.offset(y:)
                     SecureField("Password", text: $password)
                         .padding()
                         .frame(width: 300, height: 50)
-                        .background(Color.gray.opacity(0.25))
+                        .background(Color(hue: 1.0, saturation: 0.0, brightness: 0.962))
                         .cornerRadius(10)
                         .border(.red, width: CGFloat(wrongPassword))
-                        .offset(y:150)
+                        //.offset(y:-130)
                     Button("Login"){
                         userLogin(username: username, password: password)
                     }
                     .foregroundColor(.black)
                     .frame(width: 220, height: 40)
-                    .background(Color.white.opacity(0.7))
+                    .background(Color.pink.opacity(0.75))
                     .cornerRadius(10)
-                    .offset(y:150)
+                    //.offset(y:150)
+                    
                     
                     NavigationLink(destination: Text("You are logged in @\(username)"), isActive: $showingLoginScreen){
                         EmptyView()
                     }
                     
-                    Image("their_growth_title")
-                        .offset(y:150)
+                    
+                        
                 }
             }
             .navigationBarHidden(true)
