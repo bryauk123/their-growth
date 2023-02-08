@@ -13,49 +13,63 @@ struct ContentView: View {
     @State private var wrongUsername = 0
     @State private var wrongPassword = 0
     @State private var showingLoginScreen = false
-    
+    //Make a path rather than circles
     var body: some View {
         NavigationView{
             ZStack{
-                Color.orange
+                Color.blue.opacity(0.3)
                     .ignoresSafeArea()
-                Circle()
-                    .scale(1.4)
-                    .foregroundColor(.white.opacity(0.5))
-                    .offset(y:-73)
-                Circle()
-                    .scale(0.9)
-                    .foregroundColor(.white.opacity(0.50))
-                    .offset(y:25)
+                Ellipse()
+                    .scale(0.25)
+                    .foregroundColor(.pink.opacity(0.5))
+                    .offset(y:-250)
+                    .offset(x: -75)
+                Ellipse()
+                    .scale(0.25)
+                    .foregroundColor(.blue.opacity(0.50))
+                    .offset(y:-205)
+                    .offset(x: -28)
+                Ellipse()
+                    .scale(0.25)
+                    .foregroundColor(.yellow.opacity(0.50))
+                    .offset(y:-160)
+                    .offset(x: -95)
+                    .rotationEffect(Angle(degrees: -4), anchor: .bottomLeading)
+                Image("string")
+                    .offset(x:-54)
+                    .offset(y:5)
+                    
+                
                 VStack{
-                    Text("Login")
-                        .font(.largeTitle)
-                        .bold()
-                        .padding()
-                        .foregroundColor(.pink)
                     TextField("Username", text: $username)
                         .padding()
                         .frame(width:300, height: 50)
                         .background(Color.gray.opacity(0.25))
                         .cornerRadius(10)
                         .border(.red, width: CGFloat(wrongUsername))
+                        .offset(y:150)
                     SecureField("Password", text: $password)
                         .padding()
                         .frame(width: 300, height: 50)
                         .background(Color.gray.opacity(0.25))
                         .cornerRadius(10)
                         .border(.red, width: CGFloat(wrongPassword))
+                        .offset(y:150)
                     Button("Login"){
                         userLogin(username: username, password: password)
                     }
-                    .foregroundColor(.white)
+                    .foregroundColor(.black)
                     .frame(width: 220, height: 40)
-                    .background(Color.pink)
+                    .background(Color.white.opacity(0.7))
                     .cornerRadius(10)
+                    .offset(y:150)
                     
                     NavigationLink(destination: Text("You are logged in @\(username)"), isActive: $showingLoginScreen){
                         EmptyView()
                     }
+                    
+                    Image("their_growth_title")
+                        .offset(y:150)
                 }
             }
             .navigationBarHidden(true)
