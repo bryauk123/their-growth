@@ -71,7 +71,7 @@ struct ContentView: View {
                     //.offset(y:150)
                     
                     
-                    NavigationLink(destination: Text("You are logged in @\(username)"), isActive: $showingLoginScreen){
+                    NavigationLink(destination: SpeechDelayList(), isActive: $showingLoginScreen){
                         EmptyView()
                     }
                     

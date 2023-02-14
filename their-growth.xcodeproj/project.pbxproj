@@ -13,6 +13,10 @@
 		2BD52F8E2981998000E12804 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD52F8D2981998000E12804 /* LoginScreen.swift */; };
 		2BD52F902981998200E12804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD52F8F2981998200E12804 /* Assets.xcassets */; };
 		2BD52F932981998200E12804 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD52F922981998200E12804 /* Preview Assets.xcassets */; };
+		2BF1B37C299B348400B9BC47 /* SpeechMilestone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1B37B299B348400B9BC47 /* SpeechMilestone.swift */; };
+		2BF1B37E299B371500B9BC47 /* speechData.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 2BF1B37D299B371500B9BC47 /* speechData.geojson */; };
+		2BF1B384299B425800B9BC47 /* SpeechMileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1B383299B425800B9BC47 /* SpeechMileRow.swift */; };
+		2BF1B386299B4D0900B9BC47 /* SpeechMileDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1B385299B4D0900B9BC47 /* SpeechMileDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		2BD52F8D2981998000E12804 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		2BD52F8F2981998200E12804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BD52F922981998200E12804 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BF1B37B299B348400B9BC47 /* SpeechMilestone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechMilestone.swift; sourceTree = "<group>"; };
+		2BF1B37D299B371500B9BC47 /* speechData.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = speechData.geojson; sourceTree = "<group>"; };
+		2BF1B383299B425800B9BC47 /* SpeechMileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechMileRow.swift; sourceTree = "<group>"; };
+		2BF1B385299B4D0900B9BC47 /* SpeechMileDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechMileDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +63,12 @@
 		2BD52F8A2981998000E12804 /* their-growth */ = {
 			isa = PBXGroup;
 			children = (
-				2B4AE4B529937E44009AC926 /* SpeechDelayList.swift */,
+				2BF1B382299B421D00B9BC47 /* Model */,
+				2BF1B380299B419E00B9BC47 /* Views */,
+				2BF1B381299B41AA00B9BC47 /* Resources */,
 				2BD52F8B2981998000E12804 /* their_growthApp.swift */,
-				2BD52F8D2981998000E12804 /* LoginScreen.swift */,
 				2BD52F8F2981998200E12804 /* Assets.xcassets */,
 				2BD52F912981998200E12804 /* Preview Content */,
-				2B511336299B16A300D8D1E1 /* ModelData.swift */,
 			);
 			path = "their-growth";
 			sourceTree = "<group>";
@@ -71,6 +79,34 @@
 				2BD52F922981998200E12804 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BF1B380299B419E00B9BC47 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B4AE4B529937E44009AC926 /* SpeechDelayList.swift */,
+				2BD52F8D2981998000E12804 /* LoginScreen.swift */,
+				2BF1B383299B425800B9BC47 /* SpeechMileRow.swift */,
+				2BF1B385299B4D0900B9BC47 /* SpeechMileDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2BF1B381299B41AA00B9BC47 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BF1B37D299B371500B9BC47 /* speechData.geojson */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2BF1B382299B421D00B9BC47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2BF1B37B299B348400B9BC47 /* SpeechMilestone.swift */,
+				2B511336299B16A300D8D1E1 /* ModelData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BF1B37E299B371500B9BC47 /* speechData.geojson in Resources */,
 				2BD52F932981998200E12804 /* Preview Assets.xcassets in Resources */,
 				2BD52F902981998200E12804 /* Assets.xcassets in Resources */,
 			);
@@ -145,8 +182,11 @@
 			files = (
 				2B4AE4B629937E44009AC926 /* SpeechDelayList.swift in Sources */,
 				2B511337299B16A300D8D1E1 /* ModelData.swift in Sources */,
+				2BF1B386299B4D0900B9BC47 /* SpeechMileDetail.swift in Sources */,
+				2BF1B37C299B348400B9BC47 /* SpeechMilestone.swift in Sources */,
 				2BD52F8E2981998000E12804 /* LoginScreen.swift in Sources */,
 				2BD52F8C2981998000E12804 /* their_growthApp.swift in Sources */,
+				2BF1B384299B425800B9BC47 /* SpeechMileRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

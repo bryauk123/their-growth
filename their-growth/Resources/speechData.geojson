@@ -1,0 +1,29 @@
+[
+    {
+    "title":"6 months",
+    "ageGroup":"- New Born",
+    "intro": "Hey nice intro for 6 months",
+    "imageName": "six"
+    },
+    
+    {
+    "title":"9 months",
+    "ageGroup":"- Infant",
+    "intro": "Hey nice intro for 9 months",
+    "imageName": "nine"
+    },
+    
+    {
+    "title":"12 months",
+    "ageGroup":"- Toddler",
+    "intro": "Hey nice intro for 12 months",
+    "imageName": "twelve"
+    },
+    
+    {
+    "title":"18 months",
+    "ageGroup":"- Toddler",
+    "intro": "Hey nice intro for 18 months",
+    "imageName": "eighteen"
+    },
+]
