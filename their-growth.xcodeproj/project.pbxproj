@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B4AE4B629937E44009AC926 /* SpeechDelayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4AE4B529937E44009AC926 /* SpeechDelayList.swift */; };
+		2B511337299B16A300D8D1E1 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B511336299B16A300D8D1E1 /* ModelData.swift */; };
 		2BD52F8C2981998000E12804 /* their_growthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD52F8B2981998000E12804 /* their_growthApp.swift */; };
 		2BD52F8E2981998000E12804 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD52F8D2981998000E12804 /* LoginScreen.swift */; };
 		2BD52F902981998200E12804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD52F8F2981998200E12804 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		2B4AE4B529937E44009AC926 /* SpeechDelayList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechDelayList.swift; sourceTree = "<group>"; };
+		2B511336299B16A300D8D1E1 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		2BD52F882981998000E12804 /* their-growth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "their-growth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD52F8B2981998000E12804 /* their_growthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = their_growthApp.swift; sourceTree = "<group>"; };
 		2BD52F8D2981998000E12804 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				2BD52F8D2981998000E12804 /* LoginScreen.swift */,
 				2BD52F8F2981998200E12804 /* Assets.xcassets */,
 				2BD52F912981998200E12804 /* Preview Content */,
+				2B511336299B16A300D8D1E1 /* ModelData.swift */,
 			);
 			path = "their-growth";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B4AE4B629937E44009AC926 /* SpeechDelayList.swift in Sources */,
+				2B511337299B16A300D8D1E1 /* ModelData.swift in Sources */,
 				2BD52F8E2981998000E12804 /* LoginScreen.swift in Sources */,
 				2BD52F8C2981998000E12804 /* their_growthApp.swift in Sources */,
 			);
