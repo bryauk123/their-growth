@@ -17,6 +17,8 @@
 		2BF1B37E299B371500B9BC47 /* speechData.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 2BF1B37D299B371500B9BC47 /* speechData.geojson */; };
 		2BF1B384299B425800B9BC47 /* SpeechMileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1B383299B425800B9BC47 /* SpeechMileRow.swift */; };
 		2BF1B386299B4D0900B9BC47 /* SpeechMileDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1B385299B4D0900B9BC47 /* SpeechMileDetail.swift */; };
+		2BF1B388299D841500B9BC47 /* MotorskillsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1B387299D841400B9BC47 /* MotorskillsListView.swift */; };
+		2BF1B38A299D849C00B9BC47 /* MotorMilestone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1B389299D849C00B9BC47 /* MotorMilestone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		2BF1B37D299B371500B9BC47 /* speechData.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = speechData.geojson; sourceTree = "<group>"; };
 		2BF1B383299B425800B9BC47 /* SpeechMileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechMileRow.swift; sourceTree = "<group>"; };
 		2BF1B385299B4D0900B9BC47 /* SpeechMileDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechMileDetail.swift; sourceTree = "<group>"; };
+		2BF1B387299D841400B9BC47 /* MotorskillsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorskillsListView.swift; sourceTree = "<group>"; };
+		2BF1B389299D849C00B9BC47 /* MotorMilestone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorMilestone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 				2BD52F8D2981998000E12804 /* LoginScreen.swift */,
 				2BF1B383299B425800B9BC47 /* SpeechMileRow.swift */,
 				2BF1B385299B4D0900B9BC47 /* SpeechMileDetail.swift */,
+				2BF1B387299D841400B9BC47 /* MotorskillsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 			children = (
 				2BF1B37B299B348400B9BC47 /* SpeechMilestone.swift */,
 				2B511336299B16A300D8D1E1 /* ModelData.swift */,
+				2BF1B389299D849C00B9BC47 /* MotorMilestone.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -180,12 +186,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BF1B38A299D849C00B9BC47 /* MotorMilestone.swift in Sources */,
 				2B4AE4B629937E44009AC926 /* SpeechDelayList.swift in Sources */,
 				2B511337299B16A300D8D1E1 /* ModelData.swift in Sources */,
 				2BF1B386299B4D0900B9BC47 /* SpeechMileDetail.swift in Sources */,
 				2BF1B37C299B348400B9BC47 /* SpeechMilestone.swift in Sources */,
 				2BD52F8E2981998000E12804 /* LoginScreen.swift in Sources */,
 				2BD52F8C2981998000E12804 /* their_growthApp.swift in Sources */,
+				2BF1B388299D841500B9BC47 /* MotorskillsListView.swift in Sources */,
 				2BF1B384299B425800B9BC47 /* SpeechMileRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
