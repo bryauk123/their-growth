@@ -12,9 +12,16 @@ struct SpeechMileDetail: View {
     
     var body: some View{
         VStack{
-            Text(speechMilestone.title)
+            speechMilestone.detailImage
+            Spacer()
             Text(speechMilestone.intro)
-            speechMilestone.image
+                .font(.body)
+                .foregroundColor(.blue)
+                .background(Color.blue.opacity(0.1))
+                .cornerRadius(10)
+                .padding()
+            Spacer()
+            
         }
     }
 }

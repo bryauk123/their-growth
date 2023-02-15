@@ -2,28 +2,32 @@
     {
     "title":"6 months",
     "ageGroup":"- New Born",
-    "intro": "Hey nice intro for 6 months",
-    "imageName": "six"
+    "intro": "At 6 months, your baby will start using sounds to express emotion. She/he may mimic sounds she/he hears, like 'ma', 'da', 'ah', 'oh', and even 'no!' Your little one will begin to recognize familiar faces, reach and grasp for toys and will soon be crawling — start preparing your home (and yourself) for a mobile child!",
+    "imageName": "six",
+    "detailImageName": "baby_6_month"
     },
     
     {
     "title":"9 months",
     "ageGroup":"- Infant",
     "intro": "Hey nice intro for 9 months",
-    "imageName": "nine"
+    "imageName": "nine",
+    "detailImageName": ""
     },
     
     {
     "title":"12 months",
     "ageGroup":"- Toddler",
     "intro": "Hey nice intro for 12 months",
-    "imageName": "twelve"
+    "imageName": "twelve",
+    "detailImageName": ""
     },
     
     {
     "title":"18 months",
     "ageGroup":"- Toddler",
     "intro": "Hey nice intro for 18 months",
-    "imageName": "eighteen"
+    "imageName": "eighteen",
+    "detailImageName": ""
     },
 ]

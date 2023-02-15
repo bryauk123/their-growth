@@ -19,4 +19,9 @@ struct SpeechMilestone: Hashable, Codable {
     var image: Image{
         Image(imageName)
     }
+    
+    private var detailImageName: String
+    var detailImage: Image{
+        Image(detailImageName)
+    }
 }
