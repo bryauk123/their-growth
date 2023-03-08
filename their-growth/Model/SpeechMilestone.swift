@@ -14,6 +14,7 @@ struct SpeechMilestone: Hashable, Codable {
     var title: String
     var ageGroup: String
     var intro: String
+    var motorIntro: String
     
     private var imageName: String
     var image: Image{

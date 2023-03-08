@@ -9,7 +9,18 @@ import SwiftUI
 
 struct MotorskillsListView: View {
     var body: some View {
-       Text("Motorskills List")
+        NavigationView{
+            List(speechMilestones, id: \.title){ speechMilestone in
+                NavigationLink{
+                    MotorMileDetail(speechMilestone:speechMilestone)
+                }label:{
+                    SpeechMileRow(speechMilestone:speechMilestone)
+                }
+                
+            }
+            .navigationTitle("Motor Skills Milestones")
+            .font(.largeTitle)
+        }
         
         
     }

@@ -1,21 +1,21 @@
 //
-//  SpeechMileDetail.swift
+//  MotorMileDetail.swift
 //  their-growth
 //
-//  Created by Bryan Apodaca on 2/13/23.
+//  Created by Bryan Apodaca on 3/8/23.
 //
 
 import SwiftUI
 
-struct SpeechMileDetail: View {
+struct MotorMileDetail: View {
     var speechMilestone: SpeechMilestone
     
-    var body: some View{
+    var body: some View {
         ScrollView{
                 VStack(alignment: .leading){
                     speechMilestone.detailImage
                     Spacer()
-                    Text(speechMilestone.intro)
+                    Text(speechMilestone.motorIntro)
                         .font(.body)
                         .foregroundColor(.blue)
                         .background(Color.blue.opacity(0.1))
@@ -31,8 +31,8 @@ struct SpeechMileDetail: View {
     }
 }
 
-struct SpeechMileDetail_Previews: PreviewProvider {
+struct MotorMileDetail_Previews: PreviewProvider {
     static var previews: some View {
-        SpeechMileDetail(speechMilestone:speechMilestones[0])
+        MotorMileDetail(speechMilestone:speechMilestones[0])
     }
 }
