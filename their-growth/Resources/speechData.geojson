@@ -5,7 +5,8 @@
     "intro": "At 6 months, your baby will start using sounds to express emotion. She/he may mimic sounds she/he hears, like 'ma', 'da', 'ah', 'oh', and even 'no!' Your little one will begin to recognize familiar faces, reach and grasp for toys and will soon be crawling — start preparing your home (and yourself) for a mobile child!(Unicef)",
     "motorIntro":"At around 6 months your child should be able to hold almost all weight when supported in a standing position, able to transfer objects from one hand to the other, lift chest and head while on stomach, holding the weight on hands (often occurs by 4 months), picking up a dropped object, roll from back to stomach (by 7 months)",
     "imageName": "six",
-    "detailImageName": "baby_6_month"
+    "detailImageName": "baby_6_month",
+    "motorImageName": "month_6_motor"
     },
     
     {
@@ -14,7 +15,8 @@
     "intro": "Babbling, babbling, babbling – you’ll hear a lot of this from your baby as they get closer to saying their first meaningful words. Your baby might even say ‘dada’ or ‘mama’ and know what these words mean. If your baby is an early talker, they might be using 1-2 words already.But your baby will still make noises to get your attention.",
     "motorIntro":"Test for motor intro",
     "imageName": "nine",
-    "detailImageName": "baby_9_month"
+    "detailImageName": "baby_9_month",
+    "motorImageName": ""
     },
     
     {
@@ -23,7 +25,8 @@
     "intro": "Congratulations, you officially have a toddler! Toddlers are more active, curious and expressive. At this age, your child may begin to use words, be able to stand on her/his own and take a few steps. To help your little one learn and grow, read books to your child and encourage active play.",
     "motorIntro":"Test for motor intro",
     "imageName": "twelve",
-    "detailImageName": "baby_12_month"
+    "detailImageName": "baby_12_month",
+    "motorImageName": ""
     },
     
     {
@@ -32,6 +35,7 @@
     "intro": "Hey nice intro for 18 months",
     "motorIntro":"Test for motor intro",
     "imageName": "eighteen",
-    "detailImageName": ""
+    "detailImageName": "",
+    "motorImageName": ""
     },
 ]

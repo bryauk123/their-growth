@@ -13,7 +13,7 @@ struct MotorMileDetail: View {
     var body: some View {
         ScrollView{
                 VStack(alignment: .leading){
-                    speechMilestone.detailImage
+                    speechMilestone.motorImage
                     Spacer()
                     Text(speechMilestone.motorIntro)
                         .font(.body)
