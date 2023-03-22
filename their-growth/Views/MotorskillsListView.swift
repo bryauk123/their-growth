@@ -20,6 +20,7 @@ struct MotorskillsListView: View {
             }
             .navigationTitle("Motor Skills Milestones")
             .font(.largeTitle)
+            .bold()
         }
         
         
