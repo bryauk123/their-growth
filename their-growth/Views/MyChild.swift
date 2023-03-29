@@ -8,8 +8,34 @@
 import SwiftUI
 
 struct MyChild: View {
+    @State private var childName = ""
+    @State private var childAge = ""
+    
+    @State private var parentName = ""
+    @State private var zip = ""
+    
+    
     var body: some View {
-        
+        VStack{
+            Text("My Child")
+                .font(.title)
+                .bold()
+            Form{
+                Section{
+                    TextField("Name", text:$childName)
+                    TextField("Age In Months", text:$childAge)
+                }
+            }
+            Text("Parent Info")
+                .font(.title)
+                .bold()
+            Form{
+                Section{
+                    TextField("Name", text:$parentName)
+                    TextField("Zip Code", text:$zip)
+                }
+            }
+        }
     }
 }
 

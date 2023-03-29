@@ -18,6 +18,10 @@ struct MilestonesTabView: View {
                 .tabItem{
                     Label("Motorskills", systemImage: "figure.run")
                 }
+            MyChild()
+                .tabItem{
+                    Label("Profile", systemImage: "person")
+                }
         }
         .onAppear {
             // correct the transparency bug for Tab bars
