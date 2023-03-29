@@ -30,4 +30,7 @@ struct SpeechMilestone: Hashable, Codable {
     var motorImage: Image{
         Image(motorImageName)
     }
+    
+    var youtubeId: String
+    var forumLink: String
 }

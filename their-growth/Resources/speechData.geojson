@@ -6,7 +6,9 @@
     "motorIntro":"At around 6 months your child should be able to hold almost all weight when supported in a standing position, able to transfer objects from one hand to the other, lift chest and head while on stomach, holding the weight on hands (often occurs by 4 months), picking up a dropped object, roll from back to stomach (by 7 months)",
     "imageName": "six",
     "detailImageName": "baby_6_month",
-    "motorImageName": "month_6_motor"
+    "motorImageName": "month_6_motor",
+    "youtubeId":"6bw-NoQWwKg",
+    "forumLink":"https://www.unicef.org/parenting/child-development/your-babys-developmental-milestones-6-months"
     },
     
     {
@@ -16,7 +18,9 @@
     "motorIntro":"Test for motor intro",
     "imageName": "nine",
     "detailImageName": "baby_9_month",
-    "motorImageName": ""
+    "motorImageName": "",
+    "youtubeId":"EhAY4OPvBZE",
+    "forumLink":"https://www.unicef.org/parenting/child-development/your-babys-developmental-milestones-9-months"
     },
     
     {
@@ -26,7 +30,9 @@
     "motorIntro":"Test for motor intro",
     "imageName": "twelve",
     "detailImageName": "baby_12_month",
-    "motorImageName": ""
+    "motorImageName": "",
+    "youtubeId":"kX6u5TtCdvE",
+    "forumLink":"https://www.unicef.org/parenting/child-development/your-toddlers-developmental-milestones-1-year"
     },
     
     {
@@ -36,6 +42,8 @@
     "motorIntro":"Test for motor intro",
     "imageName": "eighteen",
     "detailImageName": "",
-    "motorImageName": ""
+    "motorImageName": "",
+    "youtubeId":"C7O0U9OGHew",
+    "forumLink":"https://www.unicef.org/parenting/child-development/your-toddlers-developmental-milestones-18-months"
     },
 ]

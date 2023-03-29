@@ -15,11 +15,11 @@ struct MilestonesList: View {
             List{
                 ForEach(self.milestones, id: \.self){
                     item in Text(item)
-                    if (item == "Speech"){
+                    
                         NavigationLink(destination: SpeechDelayList()){
                             EmptyView()
                         }
-                    }
+                    
                 }
             }.navigationTitle("Milestones")
         }
