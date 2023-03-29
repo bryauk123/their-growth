@@ -33,4 +33,6 @@ struct SpeechMilestone: Hashable, Codable {
     
     var youtubeId: String
     var forumLink: String
+    var youtubeIdMotor: String
+    var forumLinkMotor: String
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B449EAC29D4C5810087B0CB /* MilestonesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B449EAB29D4C5810087B0CB /* MilestonesTabView.swift */; };
+		2B449EAE29D4CF230087B0CB /* MyChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B449EAD29D4CF230087B0CB /* MyChild.swift */; };
 		2B4AE4B629937E44009AC926 /* SpeechDelayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4AE4B529937E44009AC926 /* SpeechDelayList.swift */; };
 		2B511337299B16A300D8D1E1 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B511336299B16A300D8D1E1 /* ModelData.swift */; };
 		2BB044F029D4046D00AC6000 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB044EF29D4046D00AC6000 /* VideoView.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B449EAB29D4C5810087B0CB /* MilestonesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestonesTabView.swift; sourceTree = "<group>"; };
+		2B449EAD29D4CF230087B0CB /* MyChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChild.swift; sourceTree = "<group>"; };
 		2B4AE4B529937E44009AC926 /* SpeechDelayList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechDelayList.swift; sourceTree = "<group>"; };
 		2B511336299B16A300D8D1E1 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		2BB044EF29D4046D00AC6000 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				2BF8D7F429B87988005D936F /* MotorMileDetail.swift */,
 				2BF8D7F629B87F45005D936F /* MilestonesList.swift */,
 				2BB044EF29D4046D00AC6000 /* VideoView.swift */,
+				2B449EAB29D4C5810087B0CB /* MilestonesTabView.swift */,
+				2B449EAD29D4CF230087B0CB /* MyChild.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +209,8 @@
 				2BF1B388299D841500B9BC47 /* MotorskillsListView.swift in Sources */,
 				2BB044F029D4046D00AC6000 /* VideoView.swift in Sources */,
 				2BF1B384299B425800B9BC47 /* SpeechMileRow.swift in Sources */,
+				2B449EAE29D4CF230087B0CB /* MyChild.swift in Sources */,
+				2B449EAC29D4C5810087B0CB /* MilestonesTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

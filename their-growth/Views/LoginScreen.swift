@@ -71,7 +71,7 @@ struct ContentView: View {
                     //.offset(y:150)
                     
                     
-                    NavigationLink(destination: SpeechDelayList(), isActive: $showingLoginScreen){
+                    NavigationLink(destination: MilestonesTabView(), isActive: $showingLoginScreen){
                         EmptyView()
                     }
                     

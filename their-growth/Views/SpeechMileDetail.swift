@@ -13,6 +13,9 @@ struct SpeechMileDetail: View {
     
     var body: some View{
         VStack{
+            Text(speechMilestone.title.uppercased())
+                .font(.title)
+                .bold()
             ScrollView{
                 speechMilestone.detailImage
                 

@@ -2,48 +2,56 @@
     {
     "title":"6 months",
     "ageGroup":"- New Born",
-    "intro": "At 6 months, your baby will start using sounds to express emotion. She/he may mimic sounds she/he hears, like 'ma', 'da', 'ah', 'oh', and even 'no!' Your little one will begin to recognize familiar faces, reach and grasp for toys and will soon be crawling — start preparing your home (and yourself) for a mobile child!(Unicef)",
-    "motorIntro":"At around 6 months your child should be able to hold almost all weight when supported in a standing position, able to transfer objects from one hand to the other, lift chest and head while on stomach, holding the weight on hands (often occurs by 4 months), picking up a dropped object, roll from back to stomach (by 7 months)",
+    "intro": "At 6 months, your baby will start using sounds to express emotion. She/he may mimic sounds she/he hears, like 'ma', 'da', 'ah', 'oh', and even 'no!' Your little one will begin to recognize familiar faces, reach and grasp for toys and will soon be crawling(Unicef)",
+    "motorIntro":"At around 6 months your child should be able to hold almost all weight when supported in a standing position, able to transfer objects from one hand to the other, lift chest and head while on stomach, holding the weight on hands.",
     "imageName": "six",
     "detailImageName": "baby_6_month",
     "motorImageName": "month_6_motor",
     "youtubeId":"6bw-NoQWwKg",
-    "forumLink":"https://www.unicef.org/parenting/child-development/your-babys-developmental-milestones-6-months"
+    "forumLink":"https://www.unicef.org/parenting/child-development/your-babys-developmental-milestones-6-months",
+    "youtubeIdMotor":"Y9o2jkhk4tA",
+    "forumLinkMotor":"https://www.nationwidechildrens.org/family-resources-education/700childrens/2016/05/early-motor-milestones-what-to-expect-in-your-child-6-12-months"
     },
     
     {
     "title":"9 months",
     "ageGroup":"- Infant",
-    "intro": "Babbling, babbling, babbling – you’ll hear a lot of this from your baby as they get closer to saying their first meaningful words. Your baby might even say ‘dada’ or ‘mama’ and know what these words mean. If your baby is an early talker, they might be using 1-2 words already.But your baby will still make noises to get your attention.",
-    "motorIntro":"Test for motor intro",
+    "intro": "Babbling, babbling, babbling – you’ll hear a lot of this from your baby as they get closer to saying their first meaningful words. Your baby might even say ‘dada’ or ‘mama’ and know what these words mean.",
+    "motorIntro":"Three-quarters of the way through your baby’s first year and there is hardly a trace of that tiny bundle you brought home from the hospital just nine months ago. Now your baby is a mobile, vocal, and very enterprising adventurer.",
     "imageName": "nine",
     "detailImageName": "baby_9_month",
     "motorImageName": "",
     "youtubeId":"EhAY4OPvBZE",
-    "forumLink":"https://www.unicef.org/parenting/child-development/your-babys-developmental-milestones-9-months"
+    "forumLink":"https://www.unicef.org/parenting/child-development/your-babys-developmental-milestones-9-months",
+    "youtubeIdMotor":"TP599-ZKChw",
+    "forumLinkMotor":"https://pathways.org/watch/7-to-9-month-baby-motor-milestones-to-look-for-2/"
     },
     
     {
     "title":"12 months",
     "ageGroup":"- Toddler",
-    "intro": "Congratulations, you officially have a toddler! Toddlers are more active, curious and expressive. At this age, your child may begin to use words, be able to stand on her/his own and take a few steps. To help your little one learn and grow, read books to your child and encourage active play.",
-    "motorIntro":"Test for motor intro",
+    "intro": "Congratulations, you officially have a toddler! Toddlers are more active, curious and expressive. At this age, your child may begin to use words, be able to stand on her/his own and take a few steps.",
+    "motorIntro":"How your child plays, learns, speaks, acts, and moves offers important clues about your child’s development.",
     "imageName": "twelve",
     "detailImageName": "baby_12_month",
     "motorImageName": "",
     "youtubeId":"kX6u5TtCdvE",
-    "forumLink":"https://www.unicef.org/parenting/child-development/your-toddlers-developmental-milestones-1-year"
+    "forumLink":"https://www.unicef.org/parenting/child-development/your-toddlers-developmental-milestones-1-year",
+    "youtubeIdMotor":"YgZfkinKtp8",
+    "forumLinkMotor":"https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health/in-depth/infant-development/art-20047380"
     },
     
     {
     "title":"18 months",
     "ageGroup":"- Toddler",
-    "intro": "Hey nice intro for 18 months",
-    "motorIntro":"Test for motor intro",
+    "intro": "Children learn to speak at their own pace. But markers, known as milestones, can be a guide to a child's ability to talk. These milestones help health care providers know when a child might need extra help.",
+    "motorIntro":"Children develop at their own rate, learning some skills much quicker than others. Progress also starts and stops. As some skills are learned, your child might go back to an earlier stage in some other areas for a time.",
     "imageName": "eighteen",
     "detailImageName": "",
     "motorImageName": "",
     "youtubeId":"C7O0U9OGHew",
-    "forumLink":"https://www.unicef.org/parenting/child-development/your-toddlers-developmental-milestones-18-months"
+    "forumLink":"https://www.unicef.org/parenting/child-development/your-toddlers-developmental-milestones-18-months",
+    "youtubeIdMotor":"VPJ65wriETA",
+    "forumLinkMotor":"https://www.childrensmn.org/educationmaterials/childrensmn/article/15317/developmental-milestones-12-to-18-months-/"
     },
 ]

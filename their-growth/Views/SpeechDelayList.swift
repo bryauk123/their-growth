@@ -20,6 +20,7 @@ struct SpeechDelayList: View {
             }
             .navigationTitle("Speech Milestones")
             .font(.largeTitle)
+            .bold()
         }
        
         
