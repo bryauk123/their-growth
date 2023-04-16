@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var auth: MilesAuth
+    @State var requestLogin = false
     @State private var username = ""
     @State private var password = ""
     @State private var wrongUsername = 0
@@ -15,6 +17,24 @@ struct ContentView: View {
     @State private var showingLoginScreen = false
     //Make a path rather than circles
     var body: some View {
+        //AuthTest
+        if let authUI = auth.authUI {
+            SpeechDelayList()
+                .sheet(isPresented: $requestLogin) {
+                    AuthViewController(authUI: authUI)
+                }
+        } else {
+            VStack {
+                Text("Sorry, looks like we aren’t set up right!")
+                    .padding()
+
+                Text("Please contact this app’s developer for assistance.")
+                    .padding()
+            }
+        }
+        
+        //AuthTest
+        
         NavigationView{
             ZStack{
                 Color.white.opacity(1)
@@ -101,5 +121,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(MilesAuth())
     }
 }
