@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @EnvironmentObject var auth: MilesAuth
+    //@EnvironmentObject var auth: MilesAuth
     @State var requestLogin = false
     @State private var username = ""
     @State private var password = ""
@@ -18,6 +18,7 @@ struct ContentView: View {
     //Make a path rather than circles
     var body: some View {
         //AuthTest
+        /*
         if let authUI = auth.authUI {
             SpeechDelayList()
                 .sheet(isPresented: $requestLogin) {
@@ -31,7 +32,7 @@ struct ContentView: View {
                 Text("Please contact this app’s developer for assistance.")
                     .padding()
             }
-        }
+        }*/
         
         //AuthTest
         
@@ -91,7 +92,7 @@ struct ContentView: View {
                     //.offset(y:150)
                     
                     
-                    NavigationLink(destination: MilestonesTabView(), isActive: $showingLoginScreen){
+                    NavigationLink(destination: MyChild(), isActive: $showingLoginScreen){
                         EmptyView()
                     }
                     
@@ -121,6 +122,5 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .environmentObject(MilesAuth())
     }
 }

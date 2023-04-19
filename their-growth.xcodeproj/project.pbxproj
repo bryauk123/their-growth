@@ -52,6 +52,8 @@
 		2B63C02829EB6A1D0022B8C7 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B63C02729EB6A1D0022B8C7 /* AuthViewController.swift */; };
 		2B63C02A29EB6D130022B8C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B63C02929EB6D130022B8C7 /* GoogleService-Info.plist */; };
 		2B63C02C29EB6E8C0022B8C7 /* MilesDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B63C02B29EB6E8C0022B8C7 /* MilesDelegate.swift */; };
+		2B8EB69A29EFD6D400308B2D /* ChildProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8EB69929EFD6D400308B2D /* ChildProfile.swift */; };
+		2B8EB69C29EFDF8D00308B2D /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8EB69B29EFDF8D00308B2D /* Child.swift */; };
 		2BB044F029D4046D00AC6000 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB044EF29D4046D00AC6000 /* VideoView.swift */; };
 		2BD52F8C2981998000E12804 /* their_growthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD52F8B2981998000E12804 /* their_growthApp.swift */; };
 		2BD52F8E2981998000E12804 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD52F8D2981998000E12804 /* LoginScreen.swift */; };
@@ -75,6 +77,8 @@
 		2B63C02729EB6A1D0022B8C7 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		2B63C02929EB6D130022B8C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2B63C02B29EB6E8C0022B8C7 /* MilesDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilesDelegate.swift; sourceTree = "<group>"; };
+		2B8EB69929EFD6D400308B2D /* ChildProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildProfile.swift; sourceTree = "<group>"; };
+		2B8EB69B29EFDF8D00308B2D /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
 		2BB044EF29D4046D00AC6000 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		2BD52F882981998000E12804 /* their-growth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "their-growth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD52F8B2981998000E12804 /* their_growthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = their_growthApp.swift; sourceTree = "<group>"; };
@@ -200,6 +204,7 @@
 				2B449EAB29D4C5810087B0CB /* MilestonesTabView.swift */,
 				2B449EAD29D4CF230087B0CB /* MyChild.swift */,
 				2B63C02729EB6A1D0022B8C7 /* AuthViewController.swift */,
+				2B8EB69929EFD6D400308B2D /* ChildProfile.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 			children = (
 				2BF1B37B299B348400B9BC47 /* SpeechMilestone.swift */,
 				2B511336299B16A300D8D1E1 /* ModelData.swift */,
+				2B8EB69B29EFDF8D00308B2D /* Child.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -337,12 +343,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B4AE4B629937E44009AC926 /* SpeechDelayList.swift in Sources */,
+				2B8EB69A29EFD6D400308B2D /* ChildProfile.swift in Sources */,
 				2B511337299B16A300D8D1E1 /* ModelData.swift in Sources */,
 				2BF1B386299B4D0900B9BC47 /* SpeechMileDetail.swift in Sources */,
 				2B63C02C29EB6E8C0022B8C7 /* MilesDelegate.swift in Sources */,
 				2BF1B37C299B348400B9BC47 /* SpeechMilestone.swift in Sources */,
 				2BD52F8E2981998000E12804 /* LoginScreen.swift in Sources */,
 				2BF8D7F529B87988005D936F /* MotorMileDetail.swift in Sources */,
+				2B8EB69C29EFDF8D00308B2D /* Child.swift in Sources */,
 				2BF8D7F729B87F45005D936F /* MilestonesList.swift in Sources */,
 				2B63C02829EB6A1D0022B8C7 /* AuthViewController.swift in Sources */,
 				2BD52F8C2981998000E12804 /* their_growthApp.swift in Sources */,
