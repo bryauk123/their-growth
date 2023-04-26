@@ -18,7 +18,7 @@ struct MilestonesTabView: View {
                 .tabItem{
                     Label("Motorskills", systemImage: "figure.run")
                 }
-            /*ChildProfile(name:$name)
+            /*ChildProfile()
                 .tabItem{
                     Label("Profile", systemImage: "person")
                 }*/

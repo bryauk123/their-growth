@@ -13,10 +13,11 @@ struct MyChild: View {
     @State var data: Data?
     //@State var newChild: Child
     @State var childName = ""
-    @State var childAge = ""
+    @State var childAge: Int = 0
     @State private var birthDate = Date.now
     @State private var showingAlert = true
     @State var showProfile: Bool = false
+    //@State var capturedImage: UIImage
 
     var body: some View {
         NavigationView{
@@ -29,6 +30,8 @@ struct MyChild: View {
                     
                 }
                 Spacer()
+                
+                
                 PhotosPicker(selection: $selectedItems,
                              maxSelectionCount: 1,
                              matching: .images){
@@ -36,7 +39,9 @@ struct MyChild: View {
                     
                 }
                              .onChange(of: selectedItems){
-                                 newValue in guard let item = selectedItems.first else{
+                                 newValue in guard let item = selectedItems.first
+                                                    
+                                 else{
                                      return
                                  }
                                  item.loadTransferable(type: Data.self){
@@ -52,18 +57,27 @@ struct MyChild: View {
                                      }
                                  }
                              }
-                NavigationLink(destination: ChildProfile(name: $childName),isActive: $showProfile){
+                /*
+                NavigationLink(destination: ChildProfile(name: $childName, age: $childAge),isActive: $showProfile){
                     EmptyView()
-                }
-                
+                }*/
                 TextField("Enter Child's Name", text: $childName, onCommit:{
                     self.showProfile = true
                 })
                 TextField("Enter Child's Age", value: $childAge, formatter: NumberFormatter())
+                
                 DatePicker(selection: $birthDate, in: ...Date.now, displayedComponents: .date) {
                     Text("Enter Birth Date")
                 }
-                //ChildProfile(name: self.$childName)
+                
+                NavigationLink("Submit"){
+                    ChildProfile(name: $childName, age: $childAge)
+                }
+                .foregroundColor(.black)
+                .frame(width: 220, height: 40)
+                .background(Color.blue.opacity(0.75))
+                .cornerRadius(10)
+                
             }
         }
     }

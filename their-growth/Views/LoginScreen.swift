@@ -91,10 +91,15 @@ struct ContentView: View {
                     .cornerRadius(10)
                     //.offset(y:150)
                     
-                    
-                    NavigationLink(destination: MyChild(), isActive: $showingLoginScreen){
+                    NavigationLink(destination: MyChild().navigationBarBackButtonHidden(true), isActive: $showingLoginScreen){
                         EmptyView()
                     }
+                    
+                    
+                    /*
+                    NavigationLink("Submit"){
+                        MyChild()
+                    }*/
                     
                     
                         
